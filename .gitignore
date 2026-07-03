@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Data & models (не храним крупные файлы в git)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
